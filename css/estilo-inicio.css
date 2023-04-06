@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*cores de fundo da página*/
+html,body{
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+}
+/*Header rosa da pagina*/
+.header_roxo{
+    width: 100%;
+    min-width: 768px;
+    height: 60px;
+    background-image: linear-gradient(to right, #6600ff , #ffc1ec);
+}
+.alinhamento{
+    float: right;
+    margin-top: 9px;
+    height: 100px;
+
+}
+/*Alinhamentos*/
+.inicio, .promocao, .fale-conosco, .historia, .desenvolvimento{
+	box-shadow: 10px 5px rgba(0, 0, 0, 0.2);
+	border: solid 1px #D8BFD8;
+    background-color: aliceblue;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 18px;
+	font-family: arial;
+    color: darkolivegreen;
+    float: left;
+    margin-bottom: 100px;
+}
+@media screen and(max-width: 1000px){
+    .inicio, .promocao, .fale-conosco, .historia, .desenvolvimento{
+        display: block;
+        width: 50%;
+    }
+}
+
+/*Final dos alinhamentos*/
+.background{
+    background-image: url(../img/Mainbolinha01.png);
+    background-position-y: 20%;
+    background-position-x:  45%;
+    background-size: cover;
+    width: 100%;
+    min-width: 768px;
+    max-width: 100%;
+    height: 300px;
+    border: 1px solid gray;
+}
+.pesquisar input{
+    min-width: 300px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 9px;
+    padding-left: 25px;
+    width: 30%;
+    min-width: 20px;
+    height: 30px;
+    border-radius: 200px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    outline: none;    
+    position: absolute;
+
+}
+.pesquisar input:hover{
+    transition-delay: 50ms;
+    background: #DCDCDC;
+
+}
+.mydrugs-introduction{
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border-radius: 20px 20px;
+    border: 2px solid #696969;
+    height: 500px;
+    background-color: #C0C0C0;
+    min-width: 300px;
+    background-image: linear-gradient(to right, #f5feff , #fdffff);
+}
+
+.mydrugs-introduction h1{
+    font-size: 50px;
+    color: #ff79b1;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.mydrugs-introduction p{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 1px;
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+.footer-linha{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 100px;
+}
+/*Parte de cadastro do site*/
+.Adcadastro{
+    margin-top: 10px;
+    border: solid 3px rgba(53, 52, 52, 0.5);
+    width: 75%;
+    height: 350px;
+    display: inline-block;
+    border-radius: 30px 30px;
+    background-image: linear-gradient(to right, #6600ff , #ffffff);
+}
+.inputEmail{
+    margin-top: 30px;
+    padding: 1px 13px;
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px 10px;
+}
+.inputSenha{
+    padding: 1px 13px;
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px 10px;
+    margin-top: 25px;
+}
+/*Final do cadastro.*/
+h3{
+    color: rgb(233, 233, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 25px;
+    text-shadow: black;
+
+}
+hr{
+    max-width: 330px;
+    margin: 0 auto;
+}
+.link{
+    margin-top: 10px;
+}
+a[href="./esqueci.html"]{
+    color: white;
+}
+.inputSubmit{
+    border: solid 2px #555555;
+    margin-top: 15px;
+    width: 250px;
+    height: 45px;
+    background-color: #1100ba;
+    font-size: 22px;
+    font-family: arial;
+    font-weight: bolder;
+    color: white;
+}
+.inputSubmit:hover{
+    background-color: #0b0074;	
+}
+footer{
+    color: red;
+    text-align: center;
+}
+.h2{
+    margin-top: 100px;
+}
+.vitrine001{
+    width: 95%;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 60px 60px;
+}
+.produtos{
+    display: inline-block;
+    background-color: #D00000;
+    width: 32%;
+    margin-top: 50px;
+    height: 300px;
+
+}
+.produtos p{
+    font-size: 72px;
+}
+
+#produtoUm{
+    background-image: url(../img/balaparalogo.jpg);
+    background-repeat: no-repeat;
+    border: solid rgb(44, 44, 44) 3px;
+    background-size: cover;
+}
+#produtoDois{
+    background-image: url(../img/balaparalogo.jpg);
+    border: solid rgb(44, 44, 44) 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#produtoTres{
+    background-image: url(../img/balaparalogo.jpg);
+        border: solid rgb(44, 44, 44) 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#produto3{
+    background: white;
+}
+
+	/*PARTE DE ANIMAÇÕES DO SITE*/
+
+.inicio:hover{
+    transition-delay: 56ms;
+	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
+}
+.promocao:hover{
+    transition-delay: 50ms;
+	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
+}
+.fale-conosco:hover{
+    transition-delay: 50ms;
+	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
+}
+.historia:hover{
+    transition-delay: 50ms;
+	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
+}
+.desenvolvimento:hover{
+    transition-delay: 50ms;
+	padding: 14px 14px;
+    background-color: #DCDCDC;
+    font-weight: bolder;
+}
+@media screen and (max-width: 900px){
+    .inicio, .promocao, .fale-conosco, .historia, .desenvolvimento{
+        float: none;
+        display: block;
+        margin-bottom: 0px;
+        text-align: left;
+        position: static;
+
+    }
+    .alinhamento{
+        margin-left: 80%;
+        position: fixed;
+    }
+    .mydrugs-introduction{
+        height: 100%;
+        text-align: center;
+    }
+    .Adcadastro{
+        min-width: 400px;
+    }
+}
+@media screen and (max-width: 768px){
+    .mydrugs-introduction p{
+        max-width: 60%;
+    }
+
+}
+.description-produtos{
+    padding: 0px 135px;
+    display: inline-block;
+}

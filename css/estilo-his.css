@@ -1,0 +1,67 @@
+.container-his{
+    width: 85%;
+    padding-bottom: 40px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 16px 16px rgba(0, 0, 0, 0.46);
+
+}
+.container-his h1{
+    color: yellowgreen;
+    font-size: 30pt;
+    padding-top: 30px;
+}
+.container-his >  h2{
+    color:  rgb(113, 113, 113);
+    font-size: 22pt;
+    font-style: italic ;
+}
+.container-his p {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.box1{
+    border: solid #ccc 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+    background-image: url(../img/javascript.jpg);
+    background-size: cover;
+}
+.box2{
+    border: solid #ccc 5px;
+    background-image: url(../img/mydrugs.jpg);
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+}
+.box3{
+    border: solid #ccc 5px;
+    background-image: url(../img/control.jpg);
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+}
+/*
+img{
+    border: solid #ccc 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;;
+}
+*/
